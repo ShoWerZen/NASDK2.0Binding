@@ -1,0 +1,6 @@
+/Users/showerzen/Projects/NASDK2.0Binding/NASDK2.0Binding/bin/Debug/NASDK2.0Binding.dll
+/Users/showerzen/Projects/NASDK2.0Binding/NASDK2.0Binding/bin/Debug/NASDK2.0Binding.pdb
+/Users/showerzen/Projects/NASDK2.0Binding/NASDK2.0Binding/obj/Debug/NASDK2.0Binding.csprojAssemblyReference.cache
+/Users/showerzen/Projects/NASDK2.0Binding/NASDK2.0Binding/obj/Debug/NASDK2.0Binding.csproj.CoreCompileInputs.cache
+/Users/showerzen/Projects/NASDK2.0Binding/NASDK2.0Binding/obj/Debug/NASDK2.0Binding.dll
+/Users/showerzen/Projects/NASDK2.0Binding/NASDK2.0Binding/obj/Debug/NASDK2.0Binding.pdb

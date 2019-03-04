@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);ANDROID_1;ANDROID_2;ANDROID_3;ANDROID_4;ANDROID_5;ANDROID_6;ANDROID_7;ANDROID_8;ANDROID_9;ANDROID_10;ANDROID_11;ANDROID_12;ANDROID_13;ANDROID_14;ANDROID_15;ANDROID_16;ANDROID_17;ANDROID_18;ANDROID_19;ANDROID_20;ANDROID_21;ANDROID_22;ANDROID_23;ANDROID_24;ANDROID_25;ANDROID_26</DefineConstants>
+  </PropertyGroup>
+  <!-- Classes -->
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)\Java.Interop.__TypeRegistrations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Broadcastreceiver.BTDuplicateRemoveBroadcasterReceiver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.BuildConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Ink.Structure.Dot.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Ink.Structure.DotType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Ink.Structure.Stroke.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Metadata.IMetadataCtrl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Metadata.MetadataCtrl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Metadata.Structure.Page.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Metadata.Structure.Segment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Metadata.Structure.Symbol.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Bluetooth.BTAdt.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Bluetooth.Cmd.Command.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Bluetooth.Cmd.CommandManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Bluetooth.Cmd.EstablishCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Bluetooth.Cmd.ForceCalibrateCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Bluetooth.Cmd.FwUpgradeCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Bluetooth.Cmd.FwUpgradeCommand20.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Bluetooth.Cmd.ICommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Bluetooth.Cmd.PenStatusCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Bluetooth.Cmd.ResPenOnOffCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Bluetooth.Cmd.SetTimeCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Bluetooth.Cmd.ShowTextCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Bluetooth.Comm.CommProcessor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Bluetooth.Comm.CommProcessor20.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Bluetooth.Lib.ByteConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Bluetooth.Lib.Chunk.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Bluetooth.Lib.CMD.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Bluetooth.Lib.CMD20.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Bluetooth.Lib.Packet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Bluetooth.Lib.ProtocolNotSupportedException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Bluetooth.Lib.ProtocolParser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Bluetooth.Lib.ProtocolParser20.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Filter.Fdot.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Filter.FilterForFilm.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Filter.FilterForPaper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Filter.IFilterListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.IPenAdt.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.IPenCtrl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Offline.OfflineByteData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Offline.OfflineByteParser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Offline.OfflineFile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Offline.OfflineFileParser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.PenCtrl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Penmsg.IOfflineDataListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Penmsg.IPenDotListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Penmsg.IPenMsgListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Penmsg.JsonTag.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Penmsg.PenMsg.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Pen.Penmsg.PenMsgType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Util.KeyEncoder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Util.NLog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Util.Profiler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Util.SDKVersion.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Util.TimeUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\KR.Neolab.Sdk.Util.UseNoteData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\__NamespaceMapping__.cs" />
+  </ItemGroup>
+  <!-- Enums -->
+  <ItemGroup />
+</Project>
